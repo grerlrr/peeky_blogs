@@ -1,0 +1,29 @@
+baseURL = 'https://blogs.peeky.xyz/'
+languageCode = 'en-us'
+title = 'Peeky Blog Site'
+theme = 'hello-friend-ng'
+
+[pagination]
+  pageSize = 10
+
+[params]
+  homeSubtitle = 'Peeky gibberish nonsense'
+
+[taxonomies]
+  category = "blog"
+  tag      = "tags"
+  series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Peeky Blogs"
+    keywords = ""
+
+  [languages.en.params]
+    subtitle  = "Peeky gibberish nonsense"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"

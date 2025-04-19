@@ -1,0 +1,11 @@
+/public/
+/resources/
+/hugo_stats.json
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+/themes/hello-friend-ng/
